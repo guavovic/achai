@@ -226,7 +226,7 @@ section {
     padding: var(--gv-space-6);
   }
 
-  .conteudo-principal {
+  .painel-principal {
     gap: var(--gv-space-4);
   }
 
@@ -236,7 +236,7 @@ section {
 }
 
 @media (max-width: 720px) {
-  .conteudo-principal {
+  .painel-principal {
     flex-direction: column;
     align-items: center;
   }
