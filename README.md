@@ -59,6 +59,12 @@ npx ng test --watch=false
 
 As fontes externas e a API são simuladas nos testes, então eles rodam sem rede.
 
+Os testes de contrato chamam o ViaCEP, a BrasilAPI e o IBGE de verdade e rodam toda semana no GitHub Actions. Para rodar na mão:
+
+```bash
+dotnet test --project tests/Achai.Api.ContractTests -- --explicit only
+```
+
 ## Estrutura
 
 ```
@@ -67,7 +73,7 @@ src/api/
   Common/           tipos compartilhados, erros e validação
   Infrastructure/   clientes das fontes externas, cache e fallback
 web/                front em Angular
-tests/              testes unitários e de integração
+tests/              testes da API e testes de contrato
 docs/               guias e decisões de arquitetura
 ```
 
