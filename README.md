@@ -1,4 +1,11 @@
-# Achaí
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="docs/assets/logo-escuro.svg">
+    <img src="docs/assets/logo-claro.svg" alt="Logo do Achaí: a letra í com o acento em forma de pino de mapa" width="96" height="96">
+  </picture>
+</p>
+
+<h1 align="center">Achaí</h1>
 
 Aplicação web que busca endereços brasileiros pelo CEP ou pelo nome da rua. O back-end é uma API em C#/.NET, e o front é um app em Angular.
 
